@@ -18,3 +18,4 @@ stack="") {
   }
  
 }
+export default ApiError;
