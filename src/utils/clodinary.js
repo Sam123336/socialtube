@@ -14,7 +14,7 @@ const uploadFile = async (filePath) => {
             resource_type: 'auto' // Automatically detect the resource type (image, video, etc.)
         })
         console.log('File uploaded successfully:', result.url);
-        return result.url;
+        return result;
 
     }
     catch (error) {
